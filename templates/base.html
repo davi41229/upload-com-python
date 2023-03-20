@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <title>Upload | Com-Flask</title>
+  </head>
+
+  <body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+    <section class="upload-imagem">
+      <h1>Upload de Imagem</h1>
+      <form action="/uploads" method="post" enctype="multipart/form-data">
+        <label for=""> Arquivo jpg</label><br>
+        <input type="file" name="image" id="image"><br>
+        <br><button class="btn btn-primary" type="submit"><i class="bi bi-cloud-arrow-up"></i> Salvar</button>
+      </form>
+    </section>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
